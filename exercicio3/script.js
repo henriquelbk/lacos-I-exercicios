@@ -1,0 +1,9 @@
+function ranking () {
+    const maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"]
+    
+    for(let i = 0; i < maioresPaises.length; i++){
+        const elemento = maioresPaises[i]
+        console.log(`${i + 1} - ${elemento}`)
+    }
+}
+ranking()
